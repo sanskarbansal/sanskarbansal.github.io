@@ -70,18 +70,6 @@ div.cross{
 	text-shadow: 0 1px 1px black;  
 }
 
-#hobby{
-	z-index: 1;  
-	width: 30em;
-	height: 20em;
-	border-radius: 2em; 
-	margin-top: 1em;  
-	margin-left: 11.2em; 
-	display: inline-table;
-	box-shadow: 0 1px 16px 2px rgba(100, 0, 0, 0.1); 
-	padding: 1em; 
-	pos
-}
 .txt{
 
 	font-size: 1.2em; 
@@ -100,25 +88,35 @@ div.cross{
 .underline{
 	text-decoration: underline;
 }
-
+#about{
+	margin-top: 10em;
+}
 #skills{
 	width: 30em;
 	height: 20em;
 	border-radius: 2em; 
-	display: inline-table;
+	display: block;
 	box-shadow: 0 1px 16px 2px rgba(100, 0, 0, 0.1); 
-	padding: 1em;
-	position: relative;
-	left: 9em; 
-	top: 1em;
+	padding: 0 1em 1em 1em;
+	margin:0 auto;
+	padding: 2em;  
 }
-
+#hobby{ 
+	width: 30em;
+	height: 21em;
+	border-radius: 2em;  
+	margin: 0 auto; 
+	display: block;
+	box-shadow: 0 1px 16px 2px rgba(100, 0, 0, 0.1); 
+	padding: 2em; 
+}
 .prg{
 	width: 15em; 
 	height: 0.7em; 
 	background-color: white; 
 	border-radius: 1em;  
 	box-shadow: 1px 2px 2px pink; 
+	margin: 0.1em; 
 }
 .lvl1{
 	width: 90%;
