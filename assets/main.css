@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+html, body{
+	margin: 0; 
+	height: 100%; 
+	min-height: 100%; 
+}
+body > div h1{
+	font-size: 4em; 
+	color: blue;
+	font-family: 'Inconsolata', monospace;
+	display: inline-block;
+	color: rgba(0, 255, 133, 1);
+	text-shadow: 0 2px 1px rgb(59, 35, 100);
+}
+body > div h1:hover{
+	text-shadow: 0 3px 1px rgb(59, 35, 100);
+}
+.container{
+	align-self: center;  
+	box-shadow: 0 0.1em 1em 0.1em pink; 
+	height: 15em; 
+	margin: 1% auto;
+	border-radius: 1%; 
+	overflow: initial;
+	background-image: url("https://pixelz.cc/wp-content/uploads/2018/07/firewatch-cover-dual-monitor-wallpaper.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#logo{
+	width: 9em;
+	height: 9em;
+	display: inline;
+	border-radius: 100%;
+	box-shadow: -0.1em -0.1em 0.3em black; 
+}
+#logo:hover{
+	width: 9.1em;
+	height: 9.1em; 
+}
