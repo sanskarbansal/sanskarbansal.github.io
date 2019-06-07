@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 html, body{
 	margin: 0; 
 	height: 100%; 
 	min-height: 100%; 
 }
-body > div h1{
+#hd-1{
 	font-size: 4em; 
 	color: blue;
 	font-family: 'Inconsolata', monospace;
@@ -37,4 +38,106 @@ body > div h1:hover{
 #logo:hover{
 	width: 9.1em;
 	height: 9.1em; 
+}
+nav{ 
+	position: fixed; 
+	top: 9em; 
+	background-color: #df8787; 
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;  
+	height: 32em; 
+}
+nav a{ 
+	padding: 0.2em; 
+	display: block;
+	text-decoration: none;
+	color: white; 
+	text-shadow: 0 2px 1px black;  
+	margin: 3em 0.25em 0 0.25em;  
+	font-weight: bold;
+	font-size: 1.6em; 
+	font-family: 'Inconsolata', monospace;	
+}
+div.cross{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	transform: rotate(45deg);
+	display: inline-block; 
+	font-size: 2.5em; 
+	font-weight: bold; 
+	color: white;
+	text-shadow: 0 1px 1px black;  
+}
+
+#hobby{
+	z-index: 1;  
+	width: 30em;
+	height: 20em;
+	border-radius: 2em; 
+	margin-top: 1em;  
+	margin-left: 11.2em; 
+	display: inline-table;
+	box-shadow: 0 1px 16px 2px rgba(100, 0, 0, 0.1); 
+	padding: 1em; 
+	pos
+}
+.txt{
+
+	font-size: 1.2em; 
+	color: black;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+}
+.hd-2{
+	font-size: 2em; 
+	color: blue;
+	font-family: 'Inconsolata', monospace;
+	display: inline-block;
+	color: rgba(0, 250, 100, 1);
+	text-shadow: 0 1px 1px rgb(59, 35, 100);
+}
+.underline{
+	text-decoration: underline;
+}
+
+#skills{
+	width: 30em;
+	height: 20em;
+	border-radius: 2em; 
+	display: inline-table;
+	box-shadow: 0 1px 16px 2px rgba(100, 0, 0, 0.1); 
+	padding: 1em;
+	position: relative;
+	left: 9em; 
+	top: 1em;
+}
+
+.prg{
+	width: 15em; 
+	height: 0.7em; 
+	background-color: white; 
+	border-radius: 1em;  
+	box-shadow: 1px 2px 2px pink; 
+}
+.lvl1{
+	width: 90%;
+	height: 100%;
+	background-color: pink;
+	border-radius: 1em; 
+	float: left;
+}
+.lvl2{
+	width: 70%;
+	height: 100%;
+	background-color: pink;
+	border-radius: 1em; 
+	float: left;	
+}
+.lvl3{
+	width: 50%;
+	height: 100%;
+	background-color: pink;
+	border-radius: 1em; 
+	float: left;	
 }
